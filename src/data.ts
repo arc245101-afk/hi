@@ -6,7 +6,7 @@ export const ROOMS: Room[] = [
     name: 'Aurelia Signature Suite',
     type: 'suite',
     price: 450,
-    image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80',
     description: 'A masterpiece of contemporary luxury. The Signature Suite features a grand living room, exquisite marble fireplace, a private butler service, and an expansive balcony overlooking our tranquil gardens.',
     size: '85 m²',
     view: 'Panoramic Garden & Ocean View',
