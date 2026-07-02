@@ -20,7 +20,7 @@ export const ROOMS: Room[] = [
     name: 'The Imperial Overwater Villa',
     type: 'villa',
     price: 950,
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/t_shirt.jpg',
     description: 'Hovering gracefully above pristine turquoise waters, this palatial villa offers complete seclusion. Features an infinity-edge private plunge pool, outdoor rain shower, glass floor viewing panel, and customized wellness pavilion.',
     size: '180 m²',
     view: 'Unobstructed Open Ocean Horizon',
