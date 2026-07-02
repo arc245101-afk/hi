@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  /* Luxury Gold, Warm Beige, Copper, and Dark Brown colors matching the Bold Typography theme */
+  --color-gold-50: #fcfbf7;
+  --color-gold-100: #f6ebd1;
+  --color-gold-200: #ead4a2;
+  --color-gold-300: #dbb870;
+  --color-gold-400: #c5a059; /* Elegant warm gold from theme */
+  --color-gold-500: #b58e4a;
+  --color-gold-600: #936e2f;
+  --color-gold-700: #71501c;
+  --color-gold-800: #4f3511;
+  --color-gold-900: #2d1e0a;
+  
+  --color-luxury-950: #1a110b; /* Espresso/chocolate background in dark mode */
+  --color-luxury-900: #2c1e14; /* Deep rich brown from theme */
+  --color-luxury-800: #3d2a1c; /* Hover color */
+  --color-luxury-700: #4e3624;
+  --color-luxury-200: #f2ede4;
+  --color-luxury-100: #f9f7f2; /* Soft warm sand from theme */
+}
+
+/* Custom scrollbar and premium utility styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-luxury-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-400);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-500);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-luxury-100);
+  color: var(--color-luxury-900);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: var(--color-luxury-950);
+  color: var(--color-luxury-100);
+}
+
+body.dark ::-webkit-scrollbar-track {
+  background: var(--color-luxury-950);
+}
+
+/* Luxury card shadow effects */
+.luxury-shadow {
+  box-shadow: 0 20px 40px -15px rgba(18, 12, 6, 0.05);
+}
+
+body.dark .luxury-shadow {
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6);
+}
+
+.luxury-glow {
+  box-shadow: 0 0 25px rgba(205, 156, 70, 0.15);
+}
+
+body.dark .luxury-glow {
+  box-shadow: 0 0 25px rgba(205, 156, 70, 0.08);
+}

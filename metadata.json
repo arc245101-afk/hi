@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Luxury Hotel",
+  "description": "A modern, premium, and fully responsive full-stack website for Aurelia Luxury Hotel & Spa. Features an online room booking wizard, a secure payment emulator, multi-language toggles, light/dark mode, and an AI-powered concierge chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
